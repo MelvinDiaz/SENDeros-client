@@ -75,3 +75,8 @@
         padding-block-end: 1rem;
     }
 }
+
+.swal2-popup {
+    font-size: 1rem !important;
+    font-family: 'Roboto', sans-serif;;
+  }

@@ -6,9 +6,6 @@ import LOGO from "../Logo/logo";
 import Markers from "../Markers/markers";
 import Footer from "../footer/footer";
 import Connection from "../Google_Connection/Conecction/Connection";
-//import { Porfile_user } from "../Google_Connection/Porfile_user/Porfile_user";
-
-/* <GoogleConnections setUserInfo={setUserInfo} userCompleteInfo={userCompleteInfo}/> */
 
 const Mapa = () => {
   const default_lat = 13.681349;
@@ -23,8 +20,9 @@ const Mapa = () => {
         center={{ lat: default_lat, lng: defaul_lng }}
         zoom={defaultZoom}
         scrollWheelZoom={true}
+        
       >
-        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
         <GoToLocation />
         <Connection setUserInfo = {setUserInfo}/>
         <Markers userInfo={userInfo}/>

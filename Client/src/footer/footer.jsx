@@ -7,10 +7,10 @@ const Footer = () => {
 
   const alertaAyuda = () => {
     Swal.fire({
-      title: '<strong>¿Cómo crear marcadores</strong>',
+      title: '<strong>Sigue estos pasos:</strong>',
       icon: 'info',
       html:
-        '<li> Debes iniciar sesión </li> ' +
+        '<li>  Debes iniciar sesión </li> ' +
         '<li> Dar doble click en el mapa </li> ',
       showCloseButton: true,
       
