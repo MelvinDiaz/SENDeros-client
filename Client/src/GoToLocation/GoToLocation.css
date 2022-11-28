@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.btn-locate {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem 2rem 2rem 2rem;
+  cursor: pointer;
+  background-color: hsl(261, 46%, 74%);
+}
+
+.btn-locate-div {
+  position: absolute;
+  right: 5px;
+  z-index: 1000;
+  padding: 1rem 0.5rem 5rem;
+}
+
+.btn-locate:hover {
+  background-color: #bd93f9;
+  transform: scale(1.08);
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #4527a0
+}
+
+@media(max-width: 540px){
+  .btn-locate{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: hsl(261, 46%, 74%);
+  }
+
+  .btn-locate-div {
+    position: absolute;
+    right: 2px;
+    z-index: 1000;
+    padding: 1rem 0.5rem 5rem;
+  }
+}
+

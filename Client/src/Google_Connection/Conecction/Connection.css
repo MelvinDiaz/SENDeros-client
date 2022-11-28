@@ -1,0 +1,18 @@
+.Buttons_Info {
+    position: absolute;
+    right: 0.7rem;
+    z-index: 1000;
+    top: 1rem;
+    background-color:#44475a;
+    border-radius: 4rem;
+    display: flex;
+    padding: 0rem;
+    gap: 1rem;
+}
+
+.Div_Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  0.5rem 0.5rem 0.5rem 0 ;
+}

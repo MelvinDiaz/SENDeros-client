@@ -1,0 +1,53 @@
+.Login_Button{
+    height: 2.5rem;
+    width: 9rem;
+    border-style: none;
+    border-radius: 1rem;
+    transition: all 400ms ease ;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Login_Button:hover{
+    box-shadow: 5px 6px 20px rgb(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.Logo_Button{
+    position: absolute;
+    z-index: 1000;
+    right: -3.2rem;
+    height: 3rem;
+    width: 4.5rem;
+    padding: 0rem 3rem;
+}
+
+.Registro{
+    position: absolute;
+    z-index: 1000;
+    right: 4rem;
+    font-family: monospace;
+    font-style:oblique;
+    color:blueviolet;
+}
+
+@media(max-width: 280px){
+    .Login_Button{
+        height: 2.5rem;
+        width: 7rem;
+    }
+
+    .Logo_Button{
+        height: 2rem;
+        width: 3.5rem;
+    }
+
+    .Registro{
+        right: 3rem;
+        font-size: 13px;
+    }
+}

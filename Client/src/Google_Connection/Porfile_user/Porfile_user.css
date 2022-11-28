@@ -1,0 +1,27 @@
+.Name_user{
+    font-family: 'Roboto', sans-serif;
+    font-size : 1rem;
+}
+
+.User{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    color: #f8f8f2;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+@media(max-width: 280px){
+    .Name_user{
+        font-size : 0.7rem;
+    }
+
+    .User{
+        padding: 0.4rem;
+        padding-left: 1rem;
+    }
+}
+

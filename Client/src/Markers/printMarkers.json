@@ -1,0 +1,44 @@
+
+
+[
+    {
+      "nombreUsuario": "José",
+      "latlngUsuario": {
+        "lat": "13.704412",
+        "lng": "-89.240996"
+      },
+      "emergencia": "Choque"
+    },
+    {
+      "nombreUsuario": "Mauricio",
+      "latlngUsuario": {
+        "lat": "13.704412",
+        "lng": "-89.30000"
+      },
+      "emergencia": "Arbol caído"
+    },
+    {
+      "nombreUsuario": "Mauro",
+      "latlngUsuario": {
+        "lat": "13.88120",
+        "lng": "-89.240996"
+      },
+      "emergencia": "Bache peligroso"
+    },
+    {
+      "nombreUsuario": "Kevin",
+      "latlngUsuario": {
+        "lat": "13.750000",
+        "lng": "-89.240996"
+      },
+      "emergencia": "Choque"
+    },
+    {
+      "nombreUsuario": "Luis",
+      "latlngUsuario": {
+        "lat": "13.704412",
+        "lng": "-89.88888"
+      },
+      "emergencia": "Choque"
+    }
+    ]

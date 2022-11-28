@@ -1,0 +1,15 @@
+.leaflet-popup-content-wrapper,
+.leaflet-popup.tip {
+  background-color: #ede7f6;
+}
+
+.markerUser {
+  color: #311b92;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.markerUser h1 {
+  font-size: 1.5rem;
+}

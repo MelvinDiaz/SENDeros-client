@@ -1,0 +1,40 @@
+.logo_SENDeros {
+  position: absolute;
+  z-index: 10000;
+  display: flex;
+  padding: 1rem 1rem 0 1rem;
+  cursor: pointer;
+}
+
+.logo-png {
+  width: 6rem;
+  height: 3.5rem;
+  transition: all 400ms ease ;
+  cursor: pointer;
+}
+
+
+@media( max-width:540px ){
+  .logo_SENDeros {
+    right: 26rem;
+  }
+}
+
+@media(max-width:539px){
+  .logo_SENDeros {
+    visibility: hidden;
+  }
+}
+
+@media(min-width: 768px){
+    .logo-png {
+      width: 7.7rem;
+      height: 4.7rem;
+      transition: all 400ms ease ;
+      cursor: pointer;
+    }
+
+    .logo_SENDeros{
+      padding: 0;
+    }
+}
